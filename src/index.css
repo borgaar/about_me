@@ -1,10 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import "tailwindcss";
 
 @theme {
   --color-background: #F4ECD6; /* cream */
-  --color-surface: #FBF8EF /* ligher cream */
-  --color-primary: #053225; /* evergreen */
-  --color-secondary: #08A045
-  --color-tertiary: #4A5854
-  --color-primary-text: #1C0F13; /* coffee */
+  --color-primary-text: #3c220c; /* coffee */
+
+  --font-display: "Archivo Black";
 }
