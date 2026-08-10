@@ -41,9 +41,9 @@ export function AboutMe() {
         </a>
         , but I try to keep my profile updated.
       </span>
-      <span className="mt-6 text-sm">
+      <span className="mt-6 text-xs">
         <a className="underline" href="https://storage.borgar.dev/resume.pdf">
-          Download my resume
+          Wow, what's this?!
         </a>
       </span>
     </div>

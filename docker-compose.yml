@@ -1,0 +1,10 @@
+services:
+  borgar.dev:
+    image: "borgar.dev:latest"
+    build:
+      dockerfile: Dockerfile
+      context: .
+    restart: unless-stopped
+    ports:
+      - "127.0.0.1:2808:3000"
+    container_name: borgar.dev
