@@ -1,9 +1,24 @@
-@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
   --color-background: #F4ECD6; /* cream */
   --color-primary-text: #3c220c; /* coffee */
 
-  --font-display: "Archivo Black";
+  --font-display: "Roboto";
+}
+
+#root {
+    font-weight: 000;
+}
+
+a {
+
+    white-space: no-wrap;
+}
+
+span a {
+    font-style: italic;
+    text-decoration: underline dotted;
+    white-space: no-wrap;
 }

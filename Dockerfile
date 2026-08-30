@@ -24,5 +24,7 @@ USER 1000:1000
 
 EXPOSE 3000
 
+RUN ls -lha .
+
 CMD ["pnpm", "exec", "serve", "-s", ".", "-l", "3000"]
 
